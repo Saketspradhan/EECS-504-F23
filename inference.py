@@ -14,15 +14,14 @@ def main(args):
 
     pic_path = args.source_image
     audio_path = args.driven_audio
-    # save_dir = os.path.join(args.result_dir, strftime("%Y_%m_%d_%H.%M.%S"))
-    save_dir = os.path.join(args.result_dir, "sadtalker_video")
+    save_dir = os.path.join(args.result_dir, "EECS-504-F23-results")
     os.makedirs(save_dir, exist_ok=True)
-    pose_style = args.pose_style
+    pose_style = 0
     device = args.device
-    batch_size = args.batch_size
-    camera_yaw_list = args.camera_yaw
-    camera_pitch_list = args.camera_pitch
-    camera_roll_list = args.camera_roll
+    batch_size = 8
+    camera_yaw_list = [0]
+    camera_pitch_list = [0]
+    camera_roll_list = [0]
 
     current_code_path = sys.argv[0]
     current_root_path = os.path.split(current_code_path)[0]
@@ -80,14 +79,9 @@ def main(args):
 if __name__ == '__main__':
 
     parser = ArgumentParser()  
-    parser.add_argument("--driven_audio", default='./examples/driven_audio/RD_Radio31_000.wav', help="path to driven audio")
-    parser.add_argument("--source_image", default='/root/SadTalker/examples/source_image/art_2.png', help="path to source image")
+    parser.add_argument("--driven_audio", default='./examples/', help="path to driven audio")
+    parser.add_argument("--source_image", default='./examples/', help="path to source image")
     parser.add_argument("--result_dir", default='./examples/results', help="path to output")
-    parser.add_argument("--pose_style", type=int, default=0,  help="input pose style from [0, 46)")
-    parser.add_argument("--batch_size", type=int, default=8,  help="the batch size of facerender")
-    parser.add_argument('--camera_yaw', nargs='+', type=int, default=[0], help="the camera yaw degree")
-    parser.add_argument('--camera_pitch', nargs='+', type=int, default=[0], help="the camera pitch degree")
-    parser.add_argument('--camera_roll', nargs='+', type=int, default=[0], help="the camera roll degree")
     parser.add_argument("--cpu", dest="cpu", action="store_true") 
     
     args = parser.parse_args()
