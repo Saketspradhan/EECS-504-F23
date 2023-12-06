@@ -7,3 +7,4 @@ Made with ❤️ by:
 * Saket Pradhan
 * Kanishka Gabel
 * Srushti Hippargi
+* Shrey Shah
