@@ -1,4 +1,4 @@
-# EECS-504-Final Project
+# EECS-504-F23 Final Project
 **Pixel Polyglots: An Innovative Approach to Pronunciation Enhancement in Language Learning using Computer Vision**
 
 
