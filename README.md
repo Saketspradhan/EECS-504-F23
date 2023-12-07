@@ -1,4 +1,5 @@
-# EECS-504-F23
+# EECS-504-Final Project
+Team Pixel polyglots
 Linguistic Avatar
 
 Language learning applications like Duolingo and Babbel have catalyzed a digital revolution, yet a critical gap persists in effectively teaching pronunciation and speech. As linguists emphasize, conversing with native speakers is optimal for attaining fluency. However, the absence of comprehensive speech visualization tools impedes the immersive experience many enthusiasts seek. This predicament inspires an ingenious solution: creating a service that leverages AI-generated deefake avatars to provide realistic visualizations of users speaking in their target language, processed directly on their mobile devices with minimal GPU usage.
