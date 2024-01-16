@@ -1,7 +1,7 @@
 # EECS-504-F23 Final Project
 **Pixel Polyglots: Pronunciation Enhancement in Online Language Learning**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R_3YU6qlw2A" frameborder="0"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5Eqb_-j3FDA?si=_ND-46AH7odq2oDx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 Language learning applications like Duolingo and Babbel have catalyzed a digital revolution, yet a critical gap persists in effectively teaching pronunciation and speech. As linguists emphasize, conversing with native speakers is optimal for attaining fluency. However, the absence of comprehensive speech visualization tools impedes the immersive experience many enthusiasts seek. This predicament inspires an ingenious solution: creating a service that leverages AI-generated deepfake avatars to provide realistic visualizations of users speaking in their target language, processed directly on their mobile devices with minimal GPU usage.
