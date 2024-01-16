@@ -11,11 +11,12 @@ Language learning applications like Duolingo and Babbel have catalyzed a digital
 This network takes the audio features and generates realistic facial expression coefficients for the 3D face model over time. It is trained using a distillation loss from a lip sync model, landmark loss on rendered faces, and a lip reading loss.
 
 <img src="https://raw.githubusercontent.com/Saketspradhan/EECS-504-F23/main/Readme_data/ExpNet.jpg">
+
 This is a variational autoencoder that takes the audio and an identity code as input and outputs a diverse set of head pose coefficients over time. It is trained using reconstruction, GAN, and other losses.
 
 <img src="https://raw.githubusercontent.com/Saketspradhan/EECS-504-F23/main/Readme_data/PoseVAE.jpg">
 
-This module maps the generated 3D coefficients to an unsupervised space of facial keypoints. Then it uses warping and blending to generate the final talking head video that matches the coefficients.
+This module maps the generated 3D coefficients to an unsupervised space of facial keypoints. Next, it uses warping and blending to generate the final talking head video that matches the coefficients.
 
 <img src="https://raw.githubusercontent.com/Saketspradhan/EECS-504-F23/main/Readme_data/FaceRender.jpg">
 
