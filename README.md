@@ -2,7 +2,7 @@
 **Pixel Polyglots: Pronunciation Enhancement in Online Language Learning**
 
 
-Language learning applications like Duolingo and Babbel have catalyzed a digital revolution, yet a critical gap persists in effectively teaching pronunciation and speech. As linguists emphasize, conversing with native speakers is optimal for attaining fluency. However, the absence of comprehensive speech visualization tools impedes the immersive experience many enthusiasts seek. This predicament inspires an ingenious solution: creating a service that leverages AI-generated deefake avatars to provide realistic visualizations of users speaking in their target language, processed directly on their mobile devices with minimal GPU usage.
+Language learning applications like Duolingo and Babbel have catalyzed a digital revolution, yet a critical gap persists in effectively teaching pronunciation and speech. As linguists emphasize, conversing with native speakers is optimal for attaining fluency. However, the absence of comprehensive speech visualization tools impedes the immersive experience many enthusiasts seek. This predicament inspires an ingenious solution: creating a service that leverages AI-generated deepfake avatars to provide realistic visualizations of users speaking in their target language, processed directly on their mobile devices with minimal GPU usage.
 
 
 
@@ -11,7 +11,7 @@ Language learning applications like Duolingo and Babbel have catalyzed a digital
 This network takes the audio features and generates realistic facial expression coefficients for the 3D face model over time. It is trained using a distillation loss from a lip sync model, landmark loss on rendered faces, and a lip reading loss.
 
 <img src="https://raw.githubusercontent.com/Saketspradhan/EECS-504-F23/main/Readme_data/ExpNet.jpg">
-This is a variational autoencoder that takes the audio and an identity code as input and outputs a diverse set of head pose coefficients over time. It is trained using reconstruction, GAN and other losses.
+This is a variational autoencoder that takes the audio and an identity code as input and outputs a diverse set of head pose coefficients over time. It is trained using reconstruction, GAN, and other losses.
 
 <img src="https://raw.githubusercontent.com/Saketspradhan/EECS-504-F23/main/Readme_data/PoseVAE.jpg">
 
